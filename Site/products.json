@@ -1,0 +1,148 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "Citron",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Citrons frais et juteux, parfaits pour vos boissons et cuisine",
+      "icon": "�",
+      "availability": "available",
+      "stock": 500
+    },
+    {
+      "id": 2,
+      "name": "Pomme",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Pommes croquantes et sucrées, idéales pour toute la famille",
+      "icon": "🍎",
+      "availability": "available",
+      "stock": 600
+    },
+    {
+      "id": 3,
+      "name": "Coco",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Noix de coco fraîche, parfaite pour l'eau de coco et la pulpe",
+      "icon": "🥥",
+      "availability": "available",
+      "stock": 750
+    },
+    {
+      "id": 4,
+      "name": "Ananas",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Ananas sucré et juteux, fruit tropical par excellence",
+      "icon": "🍍",
+      "availability": "available",
+      "stock": 400
+    },
+    {
+      "id": 5,
+      "name": "Fraise",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Fraises douces et parfumées, parfaites pour les desserts",
+      "icon": "�",
+      "availability": "available",
+      "stock": 300
+    },
+    {
+      "id": 6,
+      "name": "Melon",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Melon sucré et rafraîchissant, idéal pour l'été",
+      "icon": "�",
+      "availability": "available",
+      "stock": 250
+    },
+    {
+      "id": 7,
+      "name": "Pastèque",
+      "category": "fruits",
+      "price": 20.00,
+      "description": "Pastèque juteuse et désaltérante, parfaite pour se rafraîchir",
+      "icon": "�",
+      "availability": "available",
+      "stock": 350
+    }
+  ],
+  "legumes": [
+    {
+      "id": 8,
+      "name": "Poivron",
+      "category": "legumes",
+      "price": 20.00,
+      "description": "Poivrons colorés et croquants, parfaits pour vos plats",
+      "icon": "�",
+      "availability": "available",
+      "stock": 800
+    },
+    {
+      "id": 9,
+      "name": "Tomate",
+      "category": "legumes",
+      "price": 20.00,
+      "description": "Tomates fraîches et savoureuses, base de nombreux plats",
+      "icon": "�",
+      "availability": "available",
+      "stock": 900
+    },
+    {
+      "id": 10,
+      "name": "Salade",
+      "category": "legumes",
+      "price": 20.00,
+      "description": "Salade fraîche et croquante pour vos repas légers",
+      "icon": "🥬",
+      "availability": "available",
+      "stock": 650
+    },
+    {
+      "id": 11,
+      "name": "Cornichon",
+      "category": "legumes",
+      "price": 20.00,
+      "description": "Cornichons croquants, parfaits pour accompagner vos plats",
+      "icon": "🥒",
+      "availability": "available",
+      "stock": 450
+    },
+    {
+      "id": 12,
+      "name": "Piment",
+      "category": "legumes",
+      "price": 20.00,
+      "description": "Piments forts pour relever vos préparations culinaires",
+      "icon": "�️",
+      "availability": "available",
+      "stock": 300
+    }
+  ],
+  "herbes": [
+    {
+      "id": 13,
+      "name": "Menthe",
+      "category": "herbes",
+      "price": 20.00,
+      "description": "Menthe fraîche parfaite pour tisanes et cocktails",
+      "icon": "🌿",
+      "availability": "available",
+      "stock": 400
+    },
+    {
+      "id": 14,
+      "name": "Houblon",
+      "category": "herbes",
+      "price": 20.00,
+      "description": "Houblon frais pour vos brassages artisanaux",
+      "icon": "🍃",
+      "availability": "available",
+      "stock": 200
+    }
+  ]
+}
