@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Theronis Harvest - Status Node.js</title>
+</head>
+<body>
+    <h1>✅ Theronis Harvest - Node.js Infomaniak</h1>
+    <p><strong>Frontend:</strong> <span style="color: green;">✅ Opérationnel</span></p>
+    <p><strong>API Backend:</strong> <span id="api-status">⏳ Test en cours...</span></p>
+    <p><strong>Base de données:</strong> <span id="db-status">⏳ Test en cours...</span></p>
+    <p><strong>Déploiement:</strong> <span id="timestamp"></span></p>
+
+    <script>
+        document.getElementById('timestamp').textContent = new Date().toLocaleString();
+
+        // Test de l'API
+        fetch('/api/health')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('api-status').innerHTML = '<span style="color: green;">✅ Opérationnel</span>';
+            })
+            .catch(error => {
+                document.getElementById('api-status').innerHTML = '<span style="color: red;">❌ Erreur</span>';
+            });
+
+        // Test des produits (indique si la DB fonctionne)
+        fetch('/api/products')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('db-status').innerHTML = '<span style="color: green;">✅ Opérationnel (' + data.length + ' produits)</span>';
+            })
+            .catch(error => {
+                document.getElementById('db-status').innerHTML = '<span style="color: red;">❌ Erreur</span>';
+            });
+    </script>
+</body>
+</html>
