@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theronis Harvest - Maraîcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>🌱 Theronis Harvest</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#a-propos">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="cart-toggle" id="cart-toggle" aria-label="Ouvrir le panier">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </button>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Hero -->
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenue chez Theronis Harvest</h1>
+                <p class="hero-subtitle">Votre maraîcher de confiance à Paleto Bay</p>
+                <p class="hero-description">
+                    [Description Générale]
+                </p>
+                <a href="#produits" class="cta-button">Découvrir nos produits</a>
+            </div>
+            <div class="hero-image">
+                <div class="farm-illustration">🏞️</div>
+            </div>
+        </section>
+
+        <!-- Section À Propos -->
+        <section id="a-propos" class="about">
+            <div class="container">
+                <h2>À Propos de Theronis Harvest</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            [Description 1]
+                        </p>
+                        <p>
+                            [Description 2]
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>[Information 1]</h3>
+                            <p>[Description Information 1]</p>
+                        </div>
+                        <div class="stat">
+                            <h3>[Information 2]</h3>
+                            <p>[Description Information 2]</p>
+                        </div>
+                        <div class="stat">
+                            <h3>[Information 3]</h3>
+                            <p>[Description Information 3]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Produits -->
+        <section id="produits" class="products">
+            <div class="container">
+                <h2>Nos Produits</h2>
+                
+                <!-- Règles de stock -->
+                <div class="stock-rules">
+                    <h3>📦 Disponibilité des stocks</h3>
+                    <div class="stock-legend">
+                        <div class="stock-item">
+                            <span class="stock-badge disponible">✅ Disponible</span>
+                            <span>Plus de 500 unités en stock</span>
+                        </div>
+                        <div class="stock-item">
+                            <span class="stock-badge limite">⚠️ Stock Limité</span>
+                            <span>Moins de 500 unités en stock</span>
+                        </div>
+                        <div class="stock-item">
+                            <span class="stock-badge commande">📋 Récolte sur Commande</span>
+                            <span>Stock épuisé - Commande possible</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="products-grid" id="products-grid">
+                    <!-- Les produits seront chargés dynamiquement -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Nous Contacter</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informations</h3>
+                        <div class="contact-item">
+                            <strong>📍 Adresse :</strong>
+                            <p>[Adresse]<br>Paleto Bay</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📞 Téléphone :</strong>
+                            <p>58460-69134</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🚚 Livraison :</strong>
+                            <div class="delivery-zones">
+                                <p><strong>Paleto Bay :</strong> 500$</p>
+                                <p><strong>Sandy Shores :</strong> 1 500$</p>
+                                <p><strong>San Andreas :</strong> 2 500$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Nous écrire</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Nom Discord</label>
+                                <input type="text" id="discord" name="discord" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌱 Theronis Harvest</h3>
+                    <p>Votre maraîcher de confiance à Paleto Bay</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#produits">Produits</a></li>
+                        <li><a href="#a-propos">À Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Paleto Bay</p>
+                    <p>📞 58460-69134</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Theronis Harvest. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Panier -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-overlay" id="cart-overlay"></div>
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>🛒 Mon Panier</h3>
+                <button class="cart-close" id="cart-close" aria-label="Fermer le panier">✕</button>
+            </div>
+            
+            <div class="cart-body">
+                <div class="cart-items" id="cart-items">
+                    <div class="empty-cart">
+                        <p>Votre panier est vide</p>
+                        <p class="empty-cart-subtitle">Découvrez nos produits frais !</p>
+                    </div>
+                </div>
+                
+                <div class="cart-summary" id="cart-summary" style="display: none;">
+                    <div class="summary-line">
+                        <span>Sous-total :</span>
+                        <span id="cart-subtotal">0$</span>
+                    </div>
+                    
+                    <div class="delivery-section">
+                        <h4>🚚 Livraison</h4>
+                        <select id="delivery-zone" class="delivery-select">
+                            <option value="">Sélectionner une zone</option>
+                            <option value="paleto" data-price="500">Paleto Bay - 500$</option>
+                            <option value="sandy" data-price="1500">Sandy Shores - 1 500$</option>
+                            <option value="san-andreas" data-price="2500">San Andreas - 2 500$</option>
+                        </select>
+                        <div class="delivery-cost">
+                            <span>Frais de livraison :</span>
+                            <span id="delivery-cost">0$</span>
+                        </div>
+                    </div>
+                    
+                    <div class="summary-line total">
+                        <span>Total :</span>
+                        <span id="cart-total">0$</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-footer" id="cart-footer" style="display: none;">
+                <button class="btn-clear-cart" id="clear-cart">Vider le panier</button>
+                <button class="btn-checkout" id="checkout">Commander</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

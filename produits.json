@@ -1,0 +1,155 @@
+{
+  "produits": {
+    "legumes": [
+      {
+        "id": 1,
+        "nom": "Poivron",
+        "emoji": "🫑",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 2,
+        "nom": "Tomate",
+        "emoji": "🍅",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 3,
+        "nom": "Salade",
+        "emoji": "🥬",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 4,
+        "nom": "Cornichon",
+        "emoji": "🥒",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 5,
+        "nom": "Piment",
+        "emoji": "🌶️",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      }
+    ],
+    "fruits": [
+      {
+        "id": 6,
+        "nom": "Citron",
+        "emoji": "🍋",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 7,
+        "nom": "Pomme",
+        "emoji": "🍎",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 8,
+        "nom": "Coco",
+        "emoji": "🥥",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 9,
+        "nom": "Ananas",
+        "emoji": "🍍",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 10,
+        "nom": "Fraise",
+        "emoji": "🍓",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 11,
+        "nom": "Melon",
+        "emoji": "🍈",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 12,
+        "nom": "Pastèque",
+        "emoji": "🍉",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      }
+    ],
+    "plantes": [
+      {
+        "id": 13,
+        "nom": "Menthe",
+        "emoji": "🌿",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      },
+      {
+        "id": 14,
+        "nom": "Houblon",
+        "emoji": "🌱",
+        "prix": 20,
+        "stock": 0,
+        "disponible": true
+      }
+    ]
+  },
+  "informations": {
+    "entreprise": "Theronis Harvest",
+    "localisation": "Paleto Bay",
+    "type": "Maraîcher",
+    "prix_unique": 20,
+    "devise": "$",
+    "horaires": {
+      "ouverture": "06:00",
+      "fermeture": "20:00",
+      "jours": "Lundi - Dimanche"
+    },
+    "livraison": {
+      "disponible": true,
+      "zones": {
+        "Paleto": {
+          "nom": "Paleto Bay",
+          "frais": 500
+        },
+        "Sandy": {
+          "nom": "Sandy Shores",
+          "frais": 1500
+        },
+        "San_Andreas": {
+          "nom": "San Andreas (autres zones)",
+          "frais": 2500
+        }
+      }
+    },
+    "contact": {
+      "telephone": "555-HARVEST",
+      "adresse": "Route de la Grande Chaparral, Paleto Bay, San Andreas"
+    }
+  }
+}
